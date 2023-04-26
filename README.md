@@ -1,1 +1,1 @@
-这是一个用python写的web后端，使用了fastapi框架，使用jwt鉴权，用sqlalchemy访问sqlite数据库。
+这是一个用python写的web后端，使用了fastapi框架，全异步接口，使用jwt鉴权，用sqlalchemy访问sqlite数据库。
