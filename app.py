@@ -12,6 +12,7 @@ async def healthy(user:Any = Depends(get_current_user)):
 async def login( form_data: OAuth2PasswordRequestForm = Depends()):
     print(form_data.username)
     print(form_data.password)
+    return "have logged in"
 
 if __name__=="__main__":
     uvicorn.run(app,host="0.0.0.0",port=9099)
